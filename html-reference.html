@@ -5,16 +5,182 @@
     <meta name="viewport" content="width=device-width">
     <title>HTML Reference</title>
     <link href="styles.css" rel="stylesheet" type="text/css" />
+  <style>
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 15px;
+  }
+  </style>
   </head>
   <body>
-  <h1> HTML Reference Page</h1>
+      <h1> HTML Reference Page</h1>
+   <table>
+  <tr>
+    <th>Name</th><!--Table Start-->
+    <th>Syntax</th>             
+    <th>Example</th>
+    <th>Link</th>
+  </tr>
+  <tr>
+    <td>HTML tag</td>
+    <td>&lt;html&gt; &lt;/html&gt;</td>
+    <td>&lt;html&gt; HTML code goes here &lt;/html&gt;</td>
+    <td><a href="#html">Link</a></td>
+  </tr>
+  <tr>
+    <td>Head</td>
+    <td>&lt;head&gt; &lt;/head&gt;</td>
+    <td>&lt;head&gt; Data &lt;/head&gt;</td>
+    <td><a href="#head">Link</a></td>
+  </tr>
+  <tr>
+    <td>Title</td>
+    <td>&lt;Title&gt;&lt;/title&gt;</td>
+    <td>&lt;Title&gt; HTML Reference &lt;/title&gt;</td>
+    <td><a href="#title">Link</a></td>
+  </tr>
+  <tr>
+    <td>Body</td>
+    <td>&lt;body&gt; &lt;/body&gt;</td>
+    <td>&lt;body&gt; Body code here &lt;/body&gt;</td>
+    <td><a href="#body">Link</a></td>
+  </tr>
+  <tr>
+    <td>Headings</td>
+    <td>&lt;h1-6&gt; &lt;/h1-6&gt;</td>
+    <td>&lt;h1&gt; Heading &lt;/h1&gt;</td>
+    <td><a href="#heading">Link</a></td>
+  </tr>
+  <tr>
+    <td>Paragraphs</td>
+    <td>&lt;p&gt;&lt;/p&gt;</td>
+    <td>&lt;p&gt; Text &lt;/p&gt;</td>
+    <td><a href="#paragraph">Link</a></td>
+  </tr>
+  <tr>
+    <td>Breaks</td>
+    <td>&lt;br&gt;</td>
+    <td>&lt;br&gt;</td>
+    <td><a href="#break">Link</a></td>
+  </tr>
+  <tr>
+    <td>Lines</td>
+    <td>&lt;hr&gt;</td>
+    <td>&lt;hr&gt;</td>
+    <td><a href="#line">Link</a></td>
+  </tr>
+  <tr>
+    <td>Comments</td>
+    <td>&lt;!--comment goes here--&gt;</td>
+    <td>&lt;!--comments arent shown to the user--&gt;</td>
+    <td><a href="#comments">Link</a></td>
+  </tr>
+    <tr>
+    <td>Links</td>
+    <td>&lt;a href="url">link text&lt;/a&gt;</td>
+    <td>&lt;a href="https://google.com">link text&lt;/a&gt;</td>
+    <td><a href="#link">Link</a></td>
+  </tr>  <tr>
+    <td>Images</td>
+    <td>&lt;img src="imageurl"&gt;</td>
+    <td>&lt;img src="image.png"&gt;</td>
+    <td><a href="#image">Link</a></td>
+  </tr>
+    <tr>
+    <td>Lists</td>
+    <td>&lt;ul&gt;<br>
+        &lt;li&gt;&lt;/li&gt;<br>
+        &lt;li&gt;&lt;/li&gt;<br>
+      &lt;/ul&gt;<br>
+        &lt;ol&gt;<br>
+        &lt;li&gt;&lt;/li&gt;<br>
+        &lt;li&gt;&lt;/li&gt;<br>
+        &lt;/ol&gt;
+        <hr></td>
+        
+    <td>&lt;ul&gt;<br>
+        &lt;li&gt;Thing1&lt;/li&gt;<br>
+        &lt;li&gt;Thing2&lt;/li&gt;<br>
+      &lt;/ul&gt;<br>
+        &lt;ol&gt;<br>
+        &lt;li&gt;Thing1&lt;/li&gt;<br>
+        &lt;li&gt;Thing2&lt;/li&gt;<br>
+        &lt;/ol&gt;<br>
+        <hr></td>
+        <td><a href="#list">Link</a></td>
+  </tr>
+
+    <tr>
+    <td>Tables</td>
+    <td>&lt;table&gt;<br>
+  &lt;tr&gt;<br>
+    &lt;th&gt;&lt;/th&gt;<br>
+    &lt;th&gt;&lt;/th&gt;<br>
+    &lt;th&gt;&lt;/th&gt;<br>
+  &lt;/tr&gt;<br>
+  &lt;tr&gt;<br>
+    &lt;td&gt;&lt;/td&gt;<br>
+    &lt;td&gt;&lt;/td&gt;<br>
+    &lt;td&gt;&lt;/td&gt;<br>
+  &lt;/tr&gt;<br>
+  &lt;tr&gt;<br>
+    &lt;td&gt;&lt;/td&gt;<br>
+    &lt;td&gt;&lt;/td&gt;<br>
+    &lt;td&gt;&lt;/td&gt;<br>
+  &lt;/tr&gt;<br>
+  &lt;tr&gt;<br>
+    &lt;td&gt;&lt;/td&gt;<br>
+    &lt;td&gt;&lt;/td&gt;<br>
+    &lt;td&gt;&lt;/td&gt;<br>
+  &lt;/tr&gt;<br>
+&lt;/table&gt;</td>
+    <td>&lt;table&gt;<br>
+  &lt;tr&gt;<br>
+    &lt;th&gt;Header1&lt;/th&gt;<br>
+    &lt;th&gt;Header2&lt;/th&gt;<br>
+    &lt;th&gt;Header3&lt;/th&gt;<br>
+  &lt;/tr&gt;<br>
+  &lt;tr&gt;<br>
+    &lt;td&gt;Data1&lt;/td&gt;<br>
+    &lt;td&gt;Data2&lt;/td&gt;<br>
+    &lt;td&gt;Data3&lt;/td&gt;<br>
+  &lt;/tr&gt;<br>
+  &lt;tr&gt;<br>
+    &lt;td&gt;Data4&lt;/td&gt;<br>
+    &lt;td&gt;Data5&lt;/td&gt;<br>
+    &lt;td&gt;Data6&lt;/td&gt;<br>
+  &lt;/tr&gt;<br>
+  &lt;tr&gt;<br>
+    &lt;td&gt;Dat7&lt;/td&gt;<br>
+    &lt;td&gt;Data8&lt;/td&gt;<br>
+    &lt;td&gt;Data9&lt;/td&gt;<br>
+  &lt;/tr&gt;<br>
+&lt;/table&gt;</td>         
+<td><a href="#tables">Link</a></td>
+  </tr>
+  
+    <tr>
+    <td>Blocks</td>
+    <td>&lt;div&gt; &lt;/div&gt;</td>                  
+    <!--EndTable-->
+    <td>&lt;div&gt;code here&lt;/div&gt;</td>
+    <td><a href="#block">Link</a></td>
+  </tr>
+  
+</table>
+   
+  
   <h2> The "html" Tag</h2>
+  <a name="html"></a>
   <h3>Description</h3>
   <p>The meta tag or html tag provides metadata about the HTML document. It will not be displayed on the page. Meta elements are typically used to specify page description, keywords, author of the document, last modified, and other metadata.</p>
   <h3> Syntax </h3>
-  <p>To start a basic HTML document, the html tag is needed. It is used to hold all of the meta data and displayed data in the document. </p>
+  <p>To start a basic HTML document, the &lt;html&gt; tag is needed. Then,&lt;/html&gt; is needed on the last line of code. </p>
   <h3> Example </h3>
-  <p> This is the first tag used, and it is written as < html > and ended as < / html ></p>
+  <p> If you wanted to start a new html site, this would be used.</p>
   <h3> Display</h3>
   <p> This is not displayed, it is embedded into the code.</p>
   <a href= "https://www.w3schools.com/tags/tag_html.asp"> link to w3 schools</a>
@@ -23,9 +189,9 @@
   <h3>Description</h3>
   <p>The head tag is a container for all of the head elements. It can include a title for the document, scripts, styles, meta information, and more.</p>
   <h3> Syntax </h3>
-  <p>When wanting to give the page a title and connect a css stylesheet, this is the area where it is coded into. </p>
+  <p>This is usually at the top of the page and the start tag is < head > and the end tag is < / head >. It is hard to give an example because its not displayed </p>
   <h3> Example </h3>
-  <p> This is usually at the top of the page and the start tag is < head > and the end tag is < / head >. It is hard to give an ecample because its not displayed.</p>
+  <p> When wanting to give the page a title and connect a css stylesheet, this is the area where it is coded into.</p>
   <h3> Display</h3>
   <p> This is not displayed, it is embedded into the code.</p>
   <a href= "https://www.w3schools.com/tags/tag_head.asp"> link to w3 schools</a>
@@ -34,7 +200,7 @@
   <h3>Description</h3>
   <p>A title tag is an HTML element that specifies the title of a web page. Title tags are displayed on search engine results pages (SERPs) as the clickable headline for a given result, and are important for usability, SEO, and social sharing.</p>
   <h3> Syntax </h3>
-  <p>This is usually at the top of the page and the start tag is < head > and the end tag is < / head >. It is hard to give an ecample because its not displayed </p>
+  <p>This is usually at the top of the page and the start tag is &lt;head&lg; and the end tag is &lt;head&g;. It is hard to give an ecample because its not displayed </p>
   <h3> Example </h3>
   <p>When wanting to give the page a title and connect a css stylesheet, this is the area where it is coded into.</p>
   <h3> Display</h3>
@@ -45,7 +211,7 @@
   <h3>Description</h3>
   <p>The body tag defines the document's body. The body element contains all the contents of an HTML document, such as text, hyperlinks, images, tables, lists, etc.</p>
   <h3> Syntax </h3>
-  <p> This is usually at the top of the page and the start tag is < body > and the end tag is < / body >.</p>
+  <p> This is usually at the top of the page and the start tag is &lt;body&gt; and the end tag is &lt;/body&gt;.</p>
   <h3> Example </h3>
   <p>It is hard to give an example because its not displayed.</p>
   <h3> Display</h3>
@@ -56,7 +222,7 @@
   <h3>Description</h3>
   <p>The heading tags are used generally over paragraphs or bulleted notes, there are six that each have their own size. </p>
   <h3> Syntax </h3>
-  <p> The setup for each of the heading tags is simple, < h (plus a number 1-6) > and the end tag is < h (plus the same number used in the start tag) >. </p>
+  <p> The setup for each of the heading tags is simple, &lt;h (plus a number 1-6)&gt; and the end tag is &lt;/h (plus the same number used in the start tag)&gt;. </p>
   <h3> Example </h3>
   <p>If you were writing a paragraph, and you wanted a title over it, you would use the heading tags over the paragraph to give it a title.</p>
   <h3> Display</h3>
@@ -72,7 +238,7 @@
   <h3>Description</h3>
   <p>The p tag defines a paragraph. Browsers automatically add some space before and after each p tag. The margins can be modified with CSS. </p>
   <h3> Syntax </h3>
-  <p> The start tag for a paragraph is simple, < p > is the start tag, and < / p > is the end tag. </p>
+  <p> The start tag for a paragraph is simple, &lt;p&gt; is the start tag, and &lt;/ p&gt; is the end tag. </p>
   <h3> Example </h3>
     <p>If you wanted to write a paragraph on any subject, this would be used</p>
   <h3> Display</h3>
