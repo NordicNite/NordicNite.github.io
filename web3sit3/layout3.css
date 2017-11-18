@@ -1,0 +1,105 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: black;
+}
+
+
+/* Style: Header */
+.header {
+    background-image: url("http://www.bendticket.com/imager/b/original/46330918/c116/TCM_logo_300dpi.jpg");
+    background-size: 750px 300px;
+    background-repeat: no-repeat;
+    padding: 125px;
+    background-position: center;
+    background-color: black;
+}
+
+/* Style: Top Navigation Bar */
+.topnav {
+    overflow: hidden;
+    background-color: black;
+    padding: 5px;
+}
+
+/* Style: Topnav Links */
+.topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change color on hover */
+.topnav a:hover:not(.active) {
+    background-color: grey;
+    color: white;
+}
+
+/* indicate active page on nav */
+#activepage {
+    background-color: grey;
+}
+
+/* A - Create three unequal columns that floats next to each other */
+.column {
+    float: left;
+    background-color:black;
+    color: white;
+    padding: 10px;
+}
+
+/* Left and right column */
+.column.left {
+    width: 25%;
+}
+
+.column.right {
+    width: 25%;
+}
+
+/* Middle column */
+.column.middle {
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column.side, .column.middle {
+        width: 100%;
+    }
+}
+
+/* Style the footer */
+.footer {
+    background-color: black;
+    padding: 10px;
+    color:white;
+    text-align: center;
+}
+ table, th, td {
+   border: 1px solid white;
+   border-collapse:collapse ;
+   
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
